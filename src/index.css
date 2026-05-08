@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@500&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Dropy Brand Colors */
+  --color-primary: #2952B2;
+  --color-primary-dark: #1E3F8A;
+  --color-primary-light: #EEF3FB;
+
+  /* Surface Colors */
+  --color-canvas: #F1F5F9;
+  --color-surface: #FFFFFF;
+  --color-sidebar: #0B1D3A;
+
+  /* Semantic State Colors */
+  --color-success-bg: #DCFCE7;
+  --color-success-text: #16A34A;
+  --color-warning-bg: #FEF3C7;
+  --color-warning-text: #D97706;
+  --color-danger-bg: #FEE2E2;
+  --color-danger-text: #DC2626;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-canvas);
+  color: #111827;
+}
